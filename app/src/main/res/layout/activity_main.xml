@@ -10,7 +10,7 @@
         android:id="@+id/txV_Saludo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:text="@string/txv_titulo"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -58,5 +58,51 @@
         android:contentDescription="@string/btn_imagen3"
         app:layout_constraintStart_toStartOf="@+id/btn_imagen1"
         app:layout_constraintTop_toBottomOf="@+id/btn_imagen1" />
+
+    <Button
+        android:id="@+id/btn_salir"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_salir"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txv_imagen_mapa"
+        app:layout_constraintEnd_toEndOf="@+id/btn_imagen1"
+        app:layout_constraintStart_toStartOf="@+id/btn_imagen1"
+        app:layout_constraintTop_toBottomOf="@+id/btn_imagen1" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txv_imagen_teclado"
+        app:layout_constraintEnd_toEndOf="@+id/btn_imagen2"
+        app:layout_constraintStart_toStartOf="@+id/btn_imagen2"
+        app:layout_constraintTop_toBottomOf="@+id/btn_imagen2" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txv_imagen_correo"
+        app:layout_constraintEnd_toEndOf="@+id/btn_imagen3"
+        app:layout_constraintHorizontal_bias="0.451"
+        app:layout_constraintStart_toStartOf="@+id/btn_imagen3"
+        app:layout_constraintTop_toBottomOf="@+id/btn_imagen3" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txv_imagen_estrella"
+        app:layout_constraintEnd_toEndOf="@+id/btn_imagen4"
+        app:layout_constraintStart_toStartOf="@+id/btn_imagen4"
+        app:layout_constraintTop_toBottomOf="@+id/btn_imagen4" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

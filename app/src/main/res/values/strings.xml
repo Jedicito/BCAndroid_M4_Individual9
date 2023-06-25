@@ -4,4 +4,11 @@
     <string name="btn_imagen2">Imagen 2</string>
     <string name="btn_imagen3">Imagen 3</string>
     <string name="btn_imagen4">Imagen 4</string>
+    <string name="btn_volver">Volver</string>
+    <string name="btn_salir">Salir</string>
+    <string name="txv_titulo">Escoga una imagen</string>
+    <string name="txv_imagen_mapa">Mapa</string>
+    <string name="txv_imagen_teclado">Teclado</string>
+    <string name="txv_imagen_correo">Email</string>
+    <string name="txv_imagen_estrella">Estrella</string>
 </resources>
