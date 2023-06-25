@@ -7,12 +7,56 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/txV_Saludo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hello World!"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.100000024" />
+
+    <ImageButton
+        android:id="@+id/btn_imagen1"
+        android:layout_width="140dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="32dp"
+        android:background="@android:drawable/editbox_dropdown_dark_frame"
+        android:contentDescription="@string/btn_imagen1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txV_Saludo" />
+
+    <ImageButton
+        android:id="@+id/btn_imagen2"
+        android:layout_width="140dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="50dp"
+        android:background="@android:drawable/editbox_dropdown_dark_frame"
+        android:contentDescription="@string/btn_imagen2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txV_Saludo" />
+
+    <ImageButton
+        android:id="@+id/btn_imagen4"
+        android:layout_width="140dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="40dp"
+        android:background="@android:drawable/editbox_dropdown_dark_frame"
+        android:contentDescription="@string/btn_imagen4"
+        app:layout_constraintEnd_toEndOf="@+id/btn_imagen2"
+        app:layout_constraintTop_toBottomOf="@+id/btn_imagen2" />
+
+    <ImageButton
+        android:id="@+id/btn_imagen3"
+        android:layout_width="140dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="40dp"
+        android:background="@android:drawable/editbox_dropdown_dark_frame"
+        android:contentDescription="@string/btn_imagen3"
+        app:layout_constraintStart_toStartOf="@+id/btn_imagen1"
+        app:layout_constraintTop_toBottomOf="@+id/btn_imagen1" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
